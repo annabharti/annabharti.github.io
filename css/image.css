@@ -1,0 +1,46 @@
+.container {
+  position: relative;
+  display: block;
+  margin: auto;
+  width: 60%;
+}
+
+.image {
+  display: block;
+  margin: auto;
+  width: 60%;
+  border-radius: 10%;
+}
+
+.overlay {
+  position: absolute;
+  margin: auto;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 60%;
+  border-radius: 10%;
+  opacity: 0;
+  transition: .2s ease;
+  background-color: #DB7093;
+}
+
+.container:hover .overlay {
+  opacity: 0.5;
+}
+
+.text {
+  text-align: center; 
+  margin-top: 10px;
+  font-size: 40px; 
+  font-family: Palatino, "Palatino Linotype", "Palatino LT STD", "Book Antiqua", Georgia, serif;
+  color: white;
+  position: absolute;
+  top: 30%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+}
