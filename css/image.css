@@ -24,7 +24,7 @@
   border-radius: 10%;
   opacity: 0;
   transition: .2s ease;
-  background-color: #DB7093;
+  background-color: #b3daff;
 }
 
 .container:hover .overlay {
