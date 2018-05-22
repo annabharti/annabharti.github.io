@@ -38,5 +38,6 @@ p {
 	color: white;
 	background-color: #89a2eb;
 	margin: 20px;
-
+	padding: 10px;
+	font-family: Palatino, "Palatino Linotype", "Palatino LT STD", "Book Antiqua", Georgia, serif;
 }
