@@ -37,6 +37,7 @@
   font-size: 40px; 
   font-family: Palatino, "Palatino Linotype", "Palatino LT STD", "Book Antiqua", Georgia, serif;
   color: white;
+  text-shadow: 1px 1px black;
   position: absolute;
   top: 30%;
   left: 50%;
