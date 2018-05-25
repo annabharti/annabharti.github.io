@@ -19,6 +19,9 @@ body {
 	padding: 40px 40px;
 }
 
+.shadow {
+	text-shadow: 1px 1px white;
+}
 a {
 	color: white;
 	text-decoration: none;
@@ -26,7 +29,7 @@ a {
 
 a:hover {
 	color: #DB7093;
-	text-decoration: underline;
+	text-decoration: none;
 }
 
 h1 {
@@ -36,7 +39,7 @@ h1 {
 }
 
 p {
-	color: white;
+	color: black;
 	background-color: #b3daff;
 	margin: 20px;
 	padding: 10px;
