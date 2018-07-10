@@ -1,0 +1,9 @@
+.topright {
+	position: absolute;
+	top: 8px;
+	right: 16px;
+}
+
+.home {
+	border-radius: 50%;
+}

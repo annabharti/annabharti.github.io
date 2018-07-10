@@ -19,17 +19,6 @@ body {
 	padding: 40px 40px;
 }
 
-.shadow {
-	text-shadow: 1px 1px white;
-}
-
-.center {
-	display: block;
-	margin-left: auto;
-	margin-right: auto;
-	width: 50%;
-	padding-top: 100px;
-}
 a {
 	color: white;
 	text-decoration: none;
@@ -40,16 +29,3 @@ a:hover {
 	text-decoration: none;
 }
 
-h1 {
-	color: #DB7093;
-	text-shadow: 1px 1px black;
-	font-family: Palatino, "Palatino Linotype", "Palatino LT STD", "Book Antiqua", Georgia, serif;
-}
-
-p {
-	color: black;
-	background-color: #b3daff;
-	margin: 20px;
-	padding: 10px;
-	font-family: Palatino, "Palatino Linotype", "Palatino LT STD", "Book Antiqua", Georgia, serif;
-}
