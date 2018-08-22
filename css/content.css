@@ -16,6 +16,12 @@ h1 {
 	font-family: Palatino, "Palatino Linotype", "Palatino LT STD", "Book Antiqua", Georgia, serif;
 }
 
+h2 {
+	color: #89a2eb;
+	font-style: italic;
+	font-family: Palatino, "Palatino Linotype", "Palatino LT STD", "Book Antiqua", Georgia, serif;
+}
+
 p {
 	color: black;
 	background-color: #b3daff;
