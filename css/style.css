@@ -1,15 +1,25 @@
+html,body {
+	margin: 0;
+	padding: 0;
+}
+
 body {
-    background-color: white;
+    background-color: #fff9e6;
     background-repeat: no-repeat;
 }
 
+/* navigation bar */
 .content {
+	position: fixed;
+	width: 100%;
+	height: 40px;
+	z-index: 1000;
 	text-align: center;
 	list-style-type: none;
-	margin: 20px;
 	padding: 10px;
-	background-color: #89a2eb;
-	text-shadow: 1px 1px black;
+	margin: 0;
+	background-color: #262626;
+	text-shadow: 1px 1px #264d00;
 	font-family: Palatino, "Palatino Linotype", "Palatino LT STD", "Book Antiqua", Georgia, serif;
 }
 
@@ -25,7 +35,52 @@ a {
 }
 
 a:hover {
-	color: #DB7093;
+	color: #e08585;
 	text-decoration: none;
 }
 
+/* image */
+.image {
+  display: block;
+  width: 100%;
+  height: 725px;
+}
+
+.imagetext {
+  margin-top: 100px;
+  font-size: 100px; 
+  font-family: Palatino, "Palatino Linotype", "Palatino LT STD", "Book Antiqua", Georgia, serif;
+  color: white;
+  text-shadow: 1px 1px black;
+  position: absolute;
+  top: 30%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+/* content */
+.shadow {
+	text-shadow: 1px 1px white;
+}
+
+.text {
+	font-family: Palatino, "Palatino Linotype", "Palatino LT STD", "Book Antiqua", Georgia, serif;
+
+}
+h1 {
+	color: white;
+	text-shadow: 2px 2px #262626;
+}
+
+h3 {
+	color: white;
+	font-style: italic;
+}
+
+p {
+	color: #262626;
+/*	background-color: #b3daff;*/
+
+}
