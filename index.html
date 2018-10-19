@@ -2,15 +2,17 @@
 <html>
   <head> 
     <link rel="stylesheet" type="text/css" href="./css/style.css" />
-    <title> Anna Bharti </title>
     <link rel="shortcut icon" type="image/png" href="./images/favicon.png"/>
-    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css"/>
+    <script src="./js/jquery-3.3.1.min.js"></script>
+    <script src="./js/animate.js"></script>
+    <title> Anna Bharti </title>
   </head>
 
 
   <body>
 	<ul class="content">
-	    <li class="horiz"> 
+	    <li id="click" class="horiz"> 
 	    	<a href="#aboutme">About Me</a> 
 	    </li>
 		<li class="horiz">
@@ -19,9 +21,6 @@
 		<li class="horiz">
 			<a href="#employment">Employment</a>
 		</li>
-	    <li class="horiz">
-	    	<a href="#projects">Projects</a>
-	    </li> 
 	    <li class="horiz">
 	    	<a href="#travel">Travel</a>
 	    <li class="horiz">
@@ -36,44 +35,131 @@
 			</div>
 	</div>
 
-	<div class="w3-container w3-center w3-animate-left">
-	<h1 id="aboutme"; class="text"; style="text-align: center"> About Me </h1>
+	<div id="aboutme">
+	<h1 class="text"> About Me </h1>
 		<p class="text"> I earned my Bachelor of Mathematics with a Computational Mathematics major and a Computer Science minor at the University of Waterloo. My program taught me how to be a logical thinker and assess all solutions to reach the optimal solution with the best outcome for a problem in the end. I’ve also learned to be a more patient person, especially through debugging and creating the right algorithm as it can be quiet tedious at times. In my spare time, I like to read, listen to music or workout. 
  		</p>
  	</div>
+
+	<hr class="style">
+
+	<div id="skills" class="w3-container w3-center w3-animate-left">
+	<h1 class="text"> Skills </h1>
+		<h4 class="text"> Technical </h4>
+			<p class="text"> Knowledge and usage of HTML, CSS 
+			<br> Knowledge and usage of UML for class dependencies
+			<br> Knowledge and usage of UML for class dependencies 
+			<br> C, C++, Scheme, Bash, Java, SQL, Matlab, R development 
+			<br> Knowledge and usage of Bash Scripting in a Linux environment 
+			<br> Strong understanding of various data structures and their algorithms </p>
 	
-	<h1 id="skills"; class="text"; style="text-align: center">Skills</h1>
-	<h3 class="text"; style="text-align: center"> Technical </h3>
-	<ul>
-		<p class="text"; style="text-align: left"> C, C++, Scheme, Bash, Java, SQL, Matlab, R development </p>
-		<li class="text"> Knowledge and usage of HTML, CSS </li>
-		<li class="text"> Knowledge and usage of Bash Scripting in a Linux environment </li>
-		<li class="text"> Knowledge and usage of UML for class dependencies </li>
-		<li class="text"> Strong understanding of various data structures and their algorithms </li>
-	</ul>
-
+		<h4 class="text"> Personal </h4>
+			<p class="text"> Excellent ability to multi-task and prioritize 
+			<br> Experience in customer interaction and service 
+			<br> Able to learn new procedures quickly and efficiently 
+			<br> Work well independently or in a team environment 
+			<br> Strong analytical, technical and problem solving skills 
+			<br> Excellent verbal and written communication and interpersonal skills 
+			<br> Highly organized with time management skills and exceptional attention to detail </p>
+	</div>
 	
-	<h3 class="text"; style="text-align: center"> Personal </h3>
-	<ul>
-		<li class="text"> Strong analytical, technical and problem solving skills </li>
-		<li class="text"> Work well independently or in a team environment </li>
-		<li class="text"> Excellent verbal and written communication and interpersonal skills </li>	
-		<li class="text"> Able to learn new procedures quickly and efficiently </li>
-		<li class="text"> Excellent ability to multi-task and prioritize </li>
-		<li class="text"> Experience in customer interaction and service </li>
-		<li class="text"> Highly organized with time management skills and exceptional attention to detail </li>
-	</ul>
+	<hr class="style">
 
-	<h1 id="employment"; class="text"; style="text-align: center"> Employment </h1>
- 
- 	<h1 id="travel"; class="text"; style="text-align: center">Travel</h1>
+	<div id="employment">
+	<h1 class="text"> Employment </h1>
+		<h4 class="text"> Sobeys </h4>
+			<p class="text"> <span style = "text-decoration: underline"> Customer Service </span> &nbsp; &nbsp;(June 2018 - October 2018) 
+			<br> Resolving product or service problems by clarifying the customer's complaint
+			<br> Receiving payment for the customers' purchase may it be cash, check, or credit
+			<br>Determining the cause of the problem, selecting and explaining the best solution
+			</p>
+			
+		<h4 class="text"> Megamind Abacus Academy </h4>
+			<p class="text"> <span style = "text-decoration: underline"> Tutor </span> &nbsp; &nbsp;(September 2016 – January 2017)
+			<br> Assist with homework and other class assignments
+			<br> Model problem-solving techniques for students requesting help
+			<br> Create work assignments for students to work on in class and at home
+			<br> Tutor students from pre-k to high school in Mathematics, English and Science courses
+			</p>
+		
+		<h4 class="text"> Tangentia Inc. </h4>
+			<p class="text"> <span style = "text-decoration: underline"> Junior Java Developer </span> &nbsp; &nbsp;(September 2015 – December 2015) 
+			<br> Assist in creating test plans for QA team
+			<br> Unit testing, debugging code and testing websites
+			<br> Develop, analyze and review code as required in the projects
+			<br> Design Java programs using variable declaration, looping constructs, conditional statements, class
+modeling, exception handling
+			</p>
+ 	</div>
 
- 	<h1 id="contact"; class="text"; style="text-align: center">Contact</h1>
+	<hr class="style">
+
+
+  	<div id="travel">
+ 	<h1 class="text"> Travel </h1>
+ 	<h6 class="text"> Hover on the photos to see location and date of travel *not yet implemented* </h6>
+		<div class="row"> 
+		  <div class="column">
+		  		    <img src="./images/travel/ind6.png" style="width:100%">
+
+		    <img src="./images/travel/ny2.png" style="width:100%">
+		    <img src="./images/travel/la1.png" style="width:100%">
+
+		    <img src="./images/travel/ind4.png" style="width:100%">
+		    <img src="./images/travel/la3.png" style="width:100%">
+		    		    <img src="./images/travel/reno1.png" style="width:100%">
+
+		  </div>
+
+		  <div class="column">
+		  		    		    <img src="./images/travel/ind1.png" style="width:100%">
+
+		    		  	<img src="./images/travel/chek1.png" style="width:100%">
+		    		  			    <img src="./images/travel/reno2.png" style="width:100%">
+
+		    <img src="./images/travel/ind7.png" style="width:100%">	
+
+		    <img src="./images/travel/ind3.png" style="width:100%">
+		    		    <img src="./images/travel/ny1.png" style="width:100%">
+
+		    <img src="./images/travel/qc4.png" style="width:100%">
+		    		    <img src="./images/travel/ny3.png" style="width:100%">
+
+		  </div>  
+
+		  <div class="column">
+		    <img src="./images/travel/ind2.png" style="width:100%">
+		    <img src="./images/travel/chek3.png" style="width:100%">
+		    <img src="./images/travel/ny4.png" style="width:100%">
+		    <img src="./images/travel/ind5.png" style="width:100%">
+			<img src="./images/travel/chek2.png" style="width:100%">
+		  </div>
+
+		  <div class="column">
+		  		    <img src="./images/travel/la4.png" style="width:100%">
+
+			<img src="./images/travel/qc1.png" style="width:100%">
+		    <img src="./images/travel/qc2.png" style="width:100%">
+		    <img src="./images/travel/qc3.png" style="width:100%">
+		    <img src="./images/travel/reno3.png" style="width:100%">	
+		    <img src="./images/travel/la2.png" style="width:100%">
+			<img src="./images/travel/ny5.png" style="width:100%">
+
+			
+
+		  </div>
+
+		</div>
+ 	</div>
+
+	<hr class="style">
+		
+
+ 	<div id="contact">
+ 	<h1 class="text">Contact</h1>
+ 	</div>
 
     <p style="color: red; text-align: center; font-size: 15px;"> Under Construction </p>
-
-
-
 
 
 
